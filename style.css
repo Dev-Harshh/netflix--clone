@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url(Images/bg.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    height: 96vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 77vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 5;
+}
+
+nav button {
+    font-family: sans-serif;
+    position: relative;
+    z-index: 5;
+}
+
+body {
+    background-color: black;
+}
+
+/* BUTTON */
+.smllbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.English {
+    padding: 7px 30px;
+    background-color: rgba(18, 18, 18, 0.825);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    border: 0.1px solid white;
+}
+
+
+
+
+
+.sighin {
+    padding: 7.5px 11px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sighin:hover {
+    background-color: rgb(200, 21, 21);
+}
+
+.emailaddress {
+    display: flex;
+    gap: 10px;
+
+}
+
+.emailaddress input {
+    padding: 17px 202px 17px 15px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid rgb(114, 107, 107);
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+
+
+
+}
+
+.getstarted {
+    padding: 7px 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    border: 3.2px solid red;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.getstarted:hover {
+    background-color: rgb(200, 21, 21);
+    border: 3.2px solid rgb(200, 21, 21);
+}
+
+button svg {
+    position: relative;
+    top: 4px;
+
+}
+
+
+.hero {
+    height: 611px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 5;
+    font-family: sans-serif;
+    gap: 25px;
+}
+
+.hero> :first-child {
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 23px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 18px;
+    text-align: center;
+}
+
+.firstspr {
+    background-color: rgba(47, 43, 43, 0.862);
+    height: 7px;
+}
+
+.secondspr {
+
+    background-color: rgba(47, 43, 43, 0.862);
+    height: 7px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* gap: 140px; */
+}
+
+
+
+
+
+
+.first1 {
+    font-family: sans-serif;
+    color: white;
+    margin-right: 57px;
+
+}
+
+.first1 :nth-child(1) {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.first1 :nth-child(2) {
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.first1 :nth-child(3) {
+    font-size: 23px;
+}
+
+.second {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.secimg img {
+    width: 37vw;
+    position: relative;
+    z-index: 6;
+}
+
+.vidflow video {
+    top: 861px;
+    width: 31vw;
+    position: absolute;
+    z-index: 5;
+    right: 192px;
+}
+
+
